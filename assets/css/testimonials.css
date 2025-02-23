@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#testimonials-section {
+  width: 100%;
+}
+
+.testimonials-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  text-align: center;
+  padding: 40px 24px;
+  border-radius: 8px;
+  border: solid 1px lightgray;
+  background-color: white;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap; /* Ensures responsiveness */
+  align-items: stretch; /* Makes all boxes equal height */
+}
+
+.testimonial {
+  background-color: white;
+  padding: 24px;
+  border-radius: 8px;
+  border: solid 1px lightgray;
+  min-width: 256px;
+  flex: 1; /* Allows responsive shrinking */
+  display: flex; /* Make it a flex container */
+  flex-direction: column; /* Stack items vertically */
+  text-align: left;
+  gap: 24px;
+}
+
+/* Testimonial text */
+.testimonial-text {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  text-align: left;
+  flex-grow: 1;
+}
+
+/* Testimonial profile section */
+.testimonial-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: auto; /* Pushes this section to the bottom */
+}
+
+.testimonial-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.testimonial-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial-name {
+  font-weight: bold;
+  text-align: left;
+  margin: 0;
+}
+
+.testimonial-role {
+  font-size: 14px;
+  text-align: left;
+  color: gray;
+  margin: 0;
+}

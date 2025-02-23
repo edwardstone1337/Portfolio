@@ -1,0 +1,47 @@
+/* Base Button Styles */
+.button {
+    font-size: 16px;
+    padding: 12px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    min-width: 120px; /* Ensures consistent button width */
+    text-align: center;
+    display: flex; /* Makes the link behave like a button */
+    justify-content: center;
+    align-items: center;
+    height: 48px; /* Fixed height for uniformity */
+    box-sizing: border-box; /* Ensures padding doesn’t affect size */
+}
+
+/* Primary Button (Black) */
+.button.primary {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+/* Secondary Button (White with Black Border) */
+.button.secondary {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+/* Hover & Focus States */
+.button:focus {
+    outline: 2px solid gray;
+}
+
+/* Primary Hover */
+.button.primary:hover {
+    background-color: #333;
+}
+
+/* Secondary Hover */
+.button.secondary:hover {
+    background-color: lightgray;
+}

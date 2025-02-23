@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.book-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: center;
+    padding: 40px 24px;
+    border-radius: 8px;
+    border: solid 1px lightgray;
+    background-color: white;
+}
+
+.book-image {
+    width: 100%; /* Makes it responsive */
+    max-width: inherit; /* Prevents it from getting larger than its container */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}

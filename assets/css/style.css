@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400; /* Default weight */
+  background-color: rgb(227, 245, 251);
+}
+
+.index-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  margin-top: 48px;
+  max-width: 1280px;
+  justify-self: center;
+  padding: 24px;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 560px;
+  gap: 24px;
+}
+
+.profile-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; /* Makes it a perfect circle */
+  object-fit: cover; /* Ensures the image fills the circle without distortion */
+  display: block;
+}
+
+.hero-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.hero-text-container p {
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(53, 53, 53);
+}
+
+.hero-button-container {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+h1,
+h2 {
+  font-family: "Libre Baskerville", serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px; /* 120% */
+  letter-spacing: -1.6px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px; /* 125% */
+  letter-spacing: -1.28px;
+}
