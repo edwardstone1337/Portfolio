@@ -7,6 +7,7 @@
 body {
   font-family: "Inter", sans-serif;
   font-weight: 400;
+  background-color: #221f35;
 }
 
 .index-container {
@@ -14,10 +15,9 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 80px;
-  margin-top: 48px;
   max-width: 1280px;
   justify-self: center;
-  padding: 24px;
+  padding: 40px 16px 16px 16px;
 }
 
 .hero-container {
@@ -43,20 +43,28 @@ body {
   gap: 16px;
 }
 
+.hero-text-container h1 {
+  color: white;
+}
+
 .hero-text-container p {
   text-align: center;
   font-family: Inter;
   font-size: 18px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 200;
   line-height: 24px;
-  color: rgb(53, 53, 53);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .hero-button-container {
   display: flex;
   flex-direction: row;
   gap: 24px;
+}
+
+.green-text {
+  color: #DBFC56;
 }
 
 h1,

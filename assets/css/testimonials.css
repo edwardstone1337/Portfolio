@@ -10,12 +10,12 @@
 .testimonials-container {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 40px;
   text-align: center;
   padding: 40px 24px;
   border-radius: 8px;
   border: solid 1px lightgray;
-  background-color: white;
+  background-color: #E3E8EF;
 }
 
 .testimonials {
@@ -30,7 +30,6 @@
   background-color: white;
   padding: 24px;
   border-radius: 8px;
-  border: solid 1px lightgray;
   min-width: 256px;
   flex: 1; /* Allows responsive shrinking */
   display: flex; /* Make it a flex container */
@@ -41,13 +40,14 @@
 
 /* Testimonial text */
 .testimonial-text {
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
   text-align: left;
   flex-grow: 1;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 /* Testimonial profile section */

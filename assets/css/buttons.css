@@ -19,8 +19,8 @@
 
 /* Primary Button (Black) */
 .button.primary {
-    background-color: black;
-    color: white;
+    background-color: #DBFC56;
+    color: black;
     border: none;
 }
 
@@ -38,7 +38,7 @@
 
 /* Primary Hover */
 .button.primary:hover {
-    background-color: #333;
+    background-color: #DBFC56;
 }
 
 /* Secondary Hover */
